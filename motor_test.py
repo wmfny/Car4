@@ -75,7 +75,7 @@ def test_pwm():
 
 
 while 1:
-     pwm_frequency = 25
+    pwm_frequency = 25
     forward(1)
     left(1)
     forward(2)
@@ -105,7 +105,7 @@ while 1:
     test_pwm()
     GPIO.cleanup()
     
-     pwm_frequency = 150
+    pwm_frequency = 150
     forward(1)
     left(1)
     forward(2)
